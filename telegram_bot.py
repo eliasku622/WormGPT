@@ -19,7 +19,7 @@ PROMPT_FILE = "system-prompt.txt"
 USER_LANG_FILE = "user_langs.json"
 
 MODEL_CONFIG = {
-    "name": "nvidia/nemotron-3-ultra:free",
+    "name": "nvidia/nemotron-3-ultra-550b-a55b:free",
     "base_url": "https://openrouter.ai/api/v1",
     "key": os.getenv("OPENROUTER_KEY"),
 }
